@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "609412979234",
+    "project_id": "quiz-e82d1",
+    "storage_bucket": "quiz-e82d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609412979234:android:6b91feb06461934332487b",
+        "android_client_info": {
+          "package_name": "com.ecommerece.adminpanel.e_commerce_admin_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609412979234-l2drhcspcspf3k9pairj96t94muofo8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmYwIxp0IYthCYYkhneK7SpPyEdkiRfWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609412979234-l2drhcspcspf3k9pairj96t94muofo8c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "609412979234-ajbfp22bjncegkfr0q5lvf0vcsrmak9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ovibbo.ecommerce.app.eCommerceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609412979234:android:986d5483645805e432487b",
+        "android_client_info": {
+          "package_name": "com.ovibbo.ecommerce.app.e_commerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609412979234-i74499dqhmppr4t7calpaif1stqm7vb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ovibbo.ecommerce.app.e_commerce_app",
+            "certificate_hash": "ec245eb61784921c2305c089c7c44151148e4eb7"
+          }
+        },
+        {
+          "client_id": "609412979234-l2drhcspcspf3k9pairj96t94muofo8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmYwIxp0IYthCYYkhneK7SpPyEdkiRfWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609412979234-l2drhcspcspf3k9pairj96t94muofo8c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "609412979234-ajbfp22bjncegkfr0q5lvf0vcsrmak9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ovibbo.ecommerce.app.eCommerceApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
