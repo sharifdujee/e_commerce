@@ -11,6 +11,8 @@ import '../widget/bottom_navbar_clipper.dart';
 import '../widget/floating_pop_up_dialog.dart';
 
 
+
+
 class BottomNavBarScreen extends StatelessWidget {
   const BottomNavBarScreen({super.key});
   static const String routeName = "/navBar";
@@ -41,9 +43,10 @@ class BottomNavBarScreen extends StatelessWidget {
                     child: Image.asset(
                       /// change later
                       isEditionMode.value
-                          ? IconPath.profile
-                          : IconPath.profile,
-                      width: 120.w,
+                          ? IconPath.scan
+                          : IconPath.scan,
+                      width: 100.w,
+
                       fit: BoxFit.fitWidth,
                     ),
                   ),
@@ -99,7 +102,7 @@ class CustomBottomNavBar extends StatelessWidget {
             ),
             border: Border.all(
               width: 1.w,
-              color: const Color(0xffF5F5F5),
+              color: const Color(0xFFEB7E92),
             ),
             boxShadow: const [
               BoxShadow(
@@ -112,7 +115,7 @@ class CustomBottomNavBar extends StatelessWidget {
           child: ClipPath(
             clipper: BottomNavBarClipper(),
             child: SizedBox(
-              height: 106, // Reduced height from 115 to 80
+              height: 100.h, // Reduced height from 115 to 80
               child: Obx(
                     () => BottomNavigationBar(
                   currentIndex: navController.currentIndex.value,

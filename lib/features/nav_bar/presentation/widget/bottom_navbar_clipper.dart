@@ -4,13 +4,11 @@ class BottomNavBarClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     double centerX = size.width / 2;
-    double fabRadius = 35;
+    double radius = 38;
 
     Path path = Path()
-      ..moveTo(0, 0)
-      ..lineTo(centerX - fabRadius - 10, 0)
-      ..quadraticBezierTo(
-          centerX, -fabRadius * 1.2, centerX + fabRadius + 10, 0)
+      ..lineTo(centerX - radius - 20, 0)
+      ..quadraticBezierTo(centerX, 80, centerX + radius + 20, 0)
       ..lineTo(size.width, 0)
       ..lineTo(size.width, size.height)
       ..lineTo(0, size.height)
@@ -20,7 +18,5 @@ class BottomNavBarClipper extends CustomClipper<Path> {
   }
 
   @override
-  bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
-    return false;
-  }
+  bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }

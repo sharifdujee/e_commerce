@@ -1,6 +1,7 @@
-import 'package:business_app/features/authentication/presentation/screen/login_screen.dart';
-import 'package:business_app/features/nav_bar/presentation/screen/navbar.dart';
+
 import 'package:get/get.dart';
+
+import '../../onboarding/presentation/screen/onboarding_screen.dart';
 
 class SplashController extends GetxController{
 
@@ -12,7 +13,7 @@ class SplashController extends GetxController{
   }
    void navigateToLoginScreen(){
      Future.delayed(Duration(microseconds: 300),(){
-       Get.offAllNamed(BottomNavBarScreen.routeName);
+       Get.offAllNamed(OnBoardingPage.routeName);
      });
    }
 }

@@ -5,4 +5,10 @@ class IconPath{
   static const String favorite = "$_basePath/heart.png";
   static const String cart = "$_basePath/shopping-cart.png";
   static const String profile = "$_basePath/Union.png";
+  static const String scan = "$_basePath/scanning.png";
+  static const String facebook = "$_basePath/google.png";
+  static const String google = "$_basePath/facebook.png";
+  static const String apple = "$_basePath/apple.png";
+
+
 }
